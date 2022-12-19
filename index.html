@@ -6,38 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <div class="logo">
+      <img src="/assets/images/Circle pp.png"/>
+      <h1>Joe Wray</h1>
+    </div>
     <nav>
+        <ul id="navigation">
+          <li>About Me</li>
+          <li>Work</li>
+          <li>Contact</li>
+          <li>Resume</li>
+        </ul>
     </nav>
   </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
-
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section class="flexrow" id="about">
+      <h2 class="title">About Me</h2>
+        <p></p>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
-
+    <section class="flexrow">
+      <h2 class="title">Work</h2>
+        <div id="categorygrid">
+            <div id="surf" class="categorygridarea">
+              <div class="heading">Photography</div>
+            </div>
+            <div id="reki" class="categorygridarea">
+              <div class="heading">Commisions</div>
+            </div>
+            <div id="langa" class="categorygridarea">
+              <div class="heading">Commisions</div>
+            </div>
+            <div id="character" class="categorygridarea">
+              <div class="heading">Character design</div>
+            </div>
+        </div>
+      </section>
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="flexrow" id="contact">
+      <h2 class="title">Contact Me</h2>
+        <p></p>
+
     </section>
   </main>
 </body>
